@@ -1,5 +1,6 @@
 import React from "react";
-import CharacterSheet from "./CharacterSheet";
+import CharacterSheet from "./CharacterSheet/CharacterSheet";
+import "./style.css";
 
 function App() {
   return (
