@@ -1,0 +1,2 @@
+(this["webpackJsonpdnd-client"]=this["webpackJsonpdnd-client"]||[]).push([[0],{10:function(n,t,e){"use strict";e.r(t);e(1);var c=e(3),i=e.n(c),r=e(0),d=function(){return Object(r.jsx)("div",{children:"Hi"})};var s=function(){return Object(r.jsx)("div",{children:Object(r.jsx)(d,{})})};e(9);i.a.render(Object(r.jsx)(s,{}),document.getElementById("root"))},9:function(n,t,e){}},[[10,1,2]]]);
+//# sourceMappingURL=main.54d1a1bc.chunk.js.map
