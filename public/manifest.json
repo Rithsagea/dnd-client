@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "DND Client",
+  "name": "Bootleg Dnd Client",
   "icons": [
     {
       "src": "favicon.ico",
