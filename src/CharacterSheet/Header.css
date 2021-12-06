@@ -1,73 +1,73 @@
 .header {
-  display: grid;
-  grid-template-areas: "name null info right";
-  grid-template-columns: 310px 54px 468px 30px;
-  grid-template-rows: 140px;
+	display: grid;
+	grid-template-areas: "name null info right";
+	grid-template-columns: 310px 54px 468px 30px;
+	grid-template-rows: 140px;
 
-  width: 850px;
-  height: 140px;
+	width: 850px;
+	height: 140px;
 
-  background: url(images/CharScroll.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url(images/CharScroll.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .header .name-container {
-  grid-area: name;
-  display: inline-block;
+	grid-area: name;
+	display: inline-block;
 
-  margin-left: 60px;
-  margin-top: 72px;
+	margin-left: 60px;
+	margin-top: 72px;
 }
 
 .header .name-container input {
-  width: 100%;
+	width: 100%;
 
-  margin-top: -9px;
-  vertical-align: middle;
+	margin-top: -9px;
+	vertical-align: middle;
 
-  font-size: 20px;
+	font-size: 20px;
 }
 
 .header .name-container span.label {
-  margin-top: 20px;
-  margin-left: 32px;
+	margin-top: 20px;
+	margin-left: 32px;
 }
 
 .header .header-info {
-  grid-area: info;
-  display: grid;
-  grid-template-columns: 125px 125px 125px;
-  grid-template-rows: 40px 40px;
-  grid-column-gap: 15px;
+	grid-area: info;
+	display: grid;
+	grid-template-columns: 125px 125px 125px;
+	grid-template-rows: 40px 40px;
+	grid-column-gap: 15px;
 
-  padding: 20px;
-  padding-top: 27px;
-  vertical-align: top;
-  margin-top: 26px;
+	padding: 20px;
+	padding-top: 27px;
+	vertical-align: top;
+	margin-top: 26px;
 
-  background: url(images/CharBox.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+	background: url(images/CharBox.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .labeled-input input {
-  width: 100%;
+	width: 100%;
 }
 
 .labeled-input span.label {
-  margin-top: 3px;
+	margin-top: 3px;
 }
 
 .header span.header-right-scroll {
-  grid-area: right;
+	grid-area: right;
 
-  width: 30px;
-  height: 162px;
+	width: 30px;
+	height: 162px;
 
-  margin-left: -1px;
+	margin-left: -1px;
 
-  background: url(images/ScrollRight.svg);
-  background-repeat: no-repeat;
-  background-position: right center;
+	background: url(images/ScrollRight.svg);
+	background-repeat: no-repeat;
+	background-position: right center;
 }
