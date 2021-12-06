@@ -1,4 +1,4 @@
-.header {
+.character-sheet .header {
 	display: grid;
 	grid-template-areas: "name null info right";
 	grid-template-columns: 310px 54px 468px 30px;
@@ -7,12 +7,12 @@
 	width: 850px;
 	height: 140px;
 
-	background: url(images/CharScroll.svg);
+	background: url(../images/CharScroll.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.header .name-container {
+.character-sheet .header .name-container {
 	grid-area: name;
 	display: inline-block;
 
@@ -20,7 +20,7 @@
 	margin-top: 72px;
 }
 
-.header .name-container input {
+.character-sheet .header .name-container input {
 	width: 100%;
 
 	margin-top: -9px;
@@ -29,12 +29,12 @@
 	font-size: 20px;
 }
 
-.header .name-container span.label {
+.character-sheet .header .name-container span.label {
 	margin-top: 20px;
 	margin-left: 32px;
 }
 
-.header .header-info {
+.character-sheet .header .header-info {
 	grid-area: info;
 	display: grid;
 	grid-template-columns: 125px 125px 125px;
@@ -46,20 +46,20 @@
 	vertical-align: top;
 	margin-top: 26px;
 
-	background: url(images/CharBox.svg);
+	background: url(../images/CharBox.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.labeled-input input {
+.character-sheet .header .labeled-input input {
 	width: 100%;
 }
 
-.labeled-input span.label {
+.character-sheet .header .labeled-input span.label {
 	margin-top: 3px;
 }
 
-.header span.header-right-scroll {
+.character-sheet .header span.header-right-scroll {
 	grid-area: right;
 
 	width: 30px;
@@ -67,7 +67,7 @@
 
 	margin-left: -1px;
 
-	background: url(images/ScrollRight.svg);
+	background: url(../images/ScrollRight.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 }
