@@ -6,7 +6,7 @@ const CharacterHeader = () => {
     <div className="character-header">
       <div className="nametag">
         <input className="name" type="text" />
-        <span className="name label">CHARACTER NAME</span>
+        <span className="label">CHARACTER NAME</span>
       </div>
       <div className="details">
         <div className="labeled-input">

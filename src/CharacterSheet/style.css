@@ -1,3 +1,4 @@
+/* top section */
 .character-header {
   display: grid;
   grid-template-areas: "nametag details";
@@ -7,10 +8,12 @@
   width: 850px;
   height: 140px;
 
-  background-image: url(images/CharScroll.svg);
+  background: url(images/CharScroll.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+/* right box */
 
 .character-header .nametag {
   grid-area: nametag;
@@ -34,11 +37,13 @@
   font-size: 20px;
 }
 
-.character-header span.name {
+.character-header .nametag span.label {
   margin-top: 18px;
   margin-left: 28px;
   text-align: left;
 }
+
+/* left box */
 
 .character-header .details {
   display: grid;
@@ -52,7 +57,7 @@
   margin-top: 25px;
   margin-left: 115px;
 
-  background-image: url(images/CharBox.svg);
+  background: url(images/CharBox.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -65,4 +70,218 @@
   font-size: 16px;
   margin-left: -3px;
   width: 140px;
+}
+
+/* bottom section */
+.character-body {
+  display: grid;
+  grid-template-areas: "stats utilities lore";
+
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.character-body span.label {
+  font-weight: bold;
+}
+
+/* ability bonus column */
+.character-body .stats-column .attributes-container {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+
+  background: url(images/AbilityBack.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.character-body .stats-column .str {
+  margin-top: 25px !important;
+  background: url(images/AbilitySTR.svg);
+}
+
+.character-body .stats-column .dex {
+  background: url(images/AbilityDEX.svg);
+}
+
+.character-body .stats-column .con {
+  background: url(images/AbilityCON.svg);
+}
+
+.character-body .stats-column .int {
+  background: url(images/AbilityINT.svg);
+}
+
+.character-body .stats-column .wis {
+  background: url(images/AbilityWIS.svg);
+}
+
+.character-body .stats-column .cha {
+  background: url(images/AbilityCHA.svg);
+  margin-bottom: 20px !important;
+}
+
+.character-body .stats-column .attribute-container {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 100px;
+  text-align: center;
+
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.character-body .stats-column .attribute-container button {
+  font-size: 7px;
+  font-weight: bold;
+
+  width: 100%;
+
+  border: none;
+  background: none;
+}
+
+.character-body .stats-column .attribute-container span.mod {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.character-body .stats-column .attribute-container .score {
+  font-size: 18px;
+  text-align: center;
+
+  width: 20px;
+  height: 20px;
+
+  border-bottom: 0;
+
+  background: none;
+}
+
+/* skill saves */
+.character-body .stats-column .skill-saves-container {
+  margin-left: 5px;
+
+  display: inline-block;
+  width: 180px;
+}
+
+/* inspiration bar */
+.character-body .stats-column .skill-saves-container .inspiration {
+  background: url(images/Inspiration.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+}
+
+.character-body .stats-column .skill-saves-container .inspiration .value {
+  display: inline-block;
+
+  position: relative;
+
+  width: 35px;
+  height: 35px;
+  margin-top: 4px;
+  margin-left: 5px;
+}
+.character-body
+  .stats-column
+  .skill-saves-container
+  .inspiration
+  .value
+  input[type="checkbox"] {
+  margin: 0;
+
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+  z-index: 2;
+}
+
+.character-body .stats-column .skill-saves-container .inspiration .value span {
+  display: block;
+
+  background: url(images/InspirationIcon.gif);
+  background-size: contain;
+
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  box-sizing: content-box;
+
+  width: 100%;
+  height: 100%;
+
+  cursor: pointer;
+}
+
+.character-body .stats-column .skill-saves-container .inspiration div.label {
+  height: 45px;
+  width: calc(100% - 45px);
+  margin-left: 5px;
+  margin-top: 18px;
+  vertical-align: top;
+  display: inline-block;
+}
+.character-body .stats-column .skill-saves-container .inspiration span.label {
+  text-align: center;
+}
+
+/* proficiency bar */
+.character-body .stats-column .skill-saves-container .proficiency {
+  background: url(images/ProficiencyBonus.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55px;
+
+  margin-top: 10px;
+}
+
+.character-body .stats-column .skill-saves-container .proficiency .value {
+  display: inline-block;
+
+  width: 35px;
+  height: 35px;
+  margin-top: 11px;
+  margin-left: 8px;
+}
+
+.character-body .stats-column .skill-saves-container .proficiency .value span {
+  display: block;
+
+  width: 100%;
+
+  text-align: center;
+  font-size: 26px;
+}
+
+.character-body .stats-column .skill-saves-container .proficiency div.label {
+  height: 45px;
+  width: calc(100% - 50px);
+  margin-left: 5px;
+  margin-top: 23px;
+  vertical-align: top;
+  display: inline-block;
+}
+.character-body .stats-column .skill-saves-container .proficiency span.label {
+  text-align: center;
+}
+
+/* Saving Throws */
+.character-body .stats-column .saving-throw-container {
+  box-sizing: border-box;
+  padding: 5px 5px 15px;
+
+  border: 10px solid black;
+  border-image-source: url(images/Saves.svg);
+  border-image-slice: 65 10;
+  border-image-width: auto;
+
+  margin-top: 5px;
 }
