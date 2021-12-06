@@ -6,7 +6,7 @@ body {
 span.label {
   display: block;
 
-  font-size: 10px;
+  font-size: 9px;
   font-family: sans-serif;
 }
 
@@ -15,4 +15,7 @@ input {
   border-left: 0;
   border-right: 0;
   border-bottom: 1px solid lightgray;
+  padding: 0px;
+
+  background: none;
 }
