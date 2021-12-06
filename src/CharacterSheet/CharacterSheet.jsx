@@ -1,11 +1,10 @@
 import React from "react";
-
-import CharacterHeader from "./CharacterHeader";
+import Header from "./Header";
 
 const CharacterSheet = () => {
   return (
-    <div className="character-sheet">
-      <CharacterHeader />
+    <div>
+      <Header />
     </div>
   );
 };
