@@ -7,7 +7,7 @@
 	width: 850px;
 	height: 140px;
 
-	background: url(../images/CharScroll.svg);
+	background: url(./images/CharScroll.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -42,11 +42,10 @@
 	grid-column-gap: 15px;
 
 	padding: 20px;
-	padding-top: 27px;
-	vertical-align: top;
+	padding-top: 24px;
 	margin-top: 26px;
 
-	background: url(../images/CharBox.svg);
+	background: url(./images/CharBox.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
@@ -67,7 +66,7 @@
 
 	margin-left: -1px;
 
-	background: url(../images/ScrollRight.svg);
+	background: url(./images/ScrollRight.svg);
 	background-repeat: no-repeat;
 	background-position: right center;
 }

@@ -1,0 +1,11 @@
+.character-sheet .body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	margin-left: 25px;
+}
+
+.character-sheet .attributes-column {
+	display: grid;
+	grid-template-columns: auto 1fr;
+}

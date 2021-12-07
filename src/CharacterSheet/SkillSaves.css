@@ -1,0 +1,41 @@
+.character-sheet .inspiration {
+	width: 163px;
+	height: 40px;
+
+	background: url(images/Inspiration.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.character-sheet .proficiency-bonus {
+	width: 165px;
+	height: 50px;
+
+	background: url(images/ProficiencyBonus.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.character-sheet .saving-throws-container {
+	width: 165px;
+	height: 147px;
+
+	padding: 5px 5px 15px;
+
+	border: 10px solid;
+	border-image-source: url(images/Saves.svg);
+	border-image-slice: 65 10;
+	border-image-width: auto;
+}
+
+.character-sheet .skills-container {
+	width: 165px;
+	height: 363px;
+
+	padding: 5px 5px 15px;
+
+	border: 10px solid;
+	border-image-source: url(images/Saves.svg);
+	border-image-slice: 65 10;
+	border-image-width: auto;
+}

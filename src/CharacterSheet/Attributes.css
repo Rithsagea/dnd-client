@@ -1,0 +1,84 @@
+.character-sheet .attributes {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	row-gap: 6px;
+	justify-items: center;
+
+	width: auto;
+
+	padding: 8px;
+	padding-top: 26px;
+	padding-bottom: 26px;
+
+	background: url(./images/AbilityBack.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.character-sheet .attributes .attribute-container {
+	background-repeat: no-repeat !important;
+	background-size: cover !important;
+	background-position: top center !important;
+
+	width: 76px;
+	height: 88px;
+	padding-bottom: 5px;
+
+	box-sizing: content-box;
+	vertical-align: middle;
+
+	text-align: center;
+}
+
+.character-sheet .attributes .str {
+	background: url(./images/AbilitySTR.svg);
+}
+
+.character-sheet .attributes .dex {
+	background: url(./images/AbilityDEX.svg);
+}
+
+.character-sheet .attributes .con {
+	background: url(./images/AbilityCON.svg);
+}
+
+.character-sheet .attributes .int {
+	background: url(./images/AbilityINT.svg);
+}
+
+.character-sheet .attributes .wis {
+	background: url(./images/AbilityWIS.svg);
+}
+
+.character-sheet .attributes .cha {
+	background: url(./images/AbilityCHA.svg);
+}
+
+.character-sheet .attributes .attribute-container span {
+	text-align: center;
+	line-height: 0;
+}
+
+.character-sheet .attributes .attribute-container span.label {
+	position: relative;
+	top: 11px;
+
+	font-size: 8px;
+	font-weight: bold;
+}
+
+.character-sheet .attributes .attribute-container span.modifier {
+	position: relative;
+	top: 23px;
+
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.character-sheet .attributes .attribute-container span.attribute {
+	position: relative;
+	top: 37px;
+
+	font-size: 18px;
+}
