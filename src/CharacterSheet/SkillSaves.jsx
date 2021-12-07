@@ -2,11 +2,25 @@ import React from "react";
 import PropType from "prop-types";
 import "./SkillSaves.css";
 
-const Inspiration = () => <div className="inspiration"></div>;
+const Inspiration = () => (
+	<div className="inspiration">
+		<span className="label">INSPIRATION</span>
+	</div>
+);
 
-const Proficiency = () => <div className="proficiency-bonus"></div>;
+const Proficiency = () => (
+	<div className="proficiency-bonus">
+		<span className="label">PROFICIENCY BONUS</span>
+	</div>
+);
 
-const SavingThrow = ({ label }) => <div className="saving-throw">{label}</div>;
+const SavingThrow = ({ label }) => (
+	<div className="saving-throw">
+		<input type="checkbox" />
+		<span> 0 </span>
+		<span className="label">{label}</span>
+	</div>
+);
 SavingThrow.propTypes = {
 	label: PropType.string.isRequired,
 };
@@ -19,10 +33,18 @@ const SavingThrows = () => (
 		<SavingThrow label="Intelligence" />
 		<SavingThrow label="Wisdom" />
 		<SavingThrow label="Charisma" />
+
+		<span className="label">SAVING THROWS</span>
 	</div>
 );
 
-const Skill = ({ label }) => <div className="skill">{label}</div>;
+const Skill = ({ label }) => (
+	<div className="skill">
+		<input type="checkbox" />
+		<span> 0 </span>
+		<span className="label">{label}</span>
+	</div>
+);
 Skill.propTypes = {
 	label: PropType.string.isRequired,
 };
@@ -47,11 +69,13 @@ const Skills = () => (
 		<Skill label="Sleight of Hand" />
 		<Skill label="Stealth" />
 		<Skill label="Survival" />
+
+		<span className="label">SKILLS</span>
 	</div>
 );
 
 const SkillSaves = () => (
-	<div className="skill-saves">
+	<div className="skill-saves-container">
 		<Inspiration />
 		<Proficiency />
 		<SavingThrows />

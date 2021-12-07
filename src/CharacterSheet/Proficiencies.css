@@ -1,0 +1,10 @@
+.character-sheet .proficiencies-container {
+	min-height: 100px;
+	box-sizing: border-box;
+
+	border: 5px solid white;
+	border-image-source: url(images/ProficiencyBlock.svg);
+	border-image-slice: 5 10;
+	border-image-width: 15px;
+	border-image-repeat: round;
+}

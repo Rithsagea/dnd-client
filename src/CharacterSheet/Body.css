@@ -7,5 +7,33 @@
 
 .character-sheet .attributes-column {
 	display: grid;
+	grid-template-areas: "attr save" "footer footer";
+
 	grid-template-columns: auto 1fr;
+}
+
+.character-sheet .attributes {
+	grid-area: attr;
+}
+
+.character-sheet .skill-saves-container {
+	grid-area: save;
+}
+
+.character-sheet .footer {
+	grid-area: footer;
+}
+
+.character-sheet .passive-wisdom-container {
+	height: 45px;
+
+	background: url(./images/Perception.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.character-sheet .passive-wisdom-container span.label {
+	display: inline-block;
+	margin-top: 18px;
+	margin-left: 110px;
 }

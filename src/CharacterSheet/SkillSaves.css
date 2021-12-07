@@ -1,3 +1,9 @@
+.character-sheet .skill-saves-container {
+	display: grid;
+	row-gap: 7px;
+	margin-left: 10px;
+}
+
 .character-sheet .inspiration {
 	width: 163px;
 	height: 40px;
@@ -5,6 +11,15 @@
 	background: url(images/Inspiration.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.character-sheet .inspiration span.label {
+	position: relative;
+	top: 15px;
+	left: 18px;
+	text-align: center;
+
+	font-weight: bold;
 }
 
 .character-sheet .proficiency-bonus {
@@ -16,16 +31,30 @@
 	background-size: cover;
 }
 
+.character-sheet .proficiency-bonus span.label {
+	position: relative;
+	top: 21px;
+	left: 18px;
+	text-align: center;
+
+	font-weight: bold;
+}
+
 .character-sheet .saving-throws-container {
 	width: 165px;
 	height: 147px;
 
 	padding: 5px 5px 15px;
 
-	border: 10px solid;
-	border-image-source: url(images/Saves.svg);
+	border: 10px solid white;
+	border-image-source: url(images/SavesBlock.svg);
 	border-image-slice: 65 10;
 	border-image-width: auto;
+}
+
+.character-sheet .saving-throw {
+	display: grid;
+	grid-template-columns: 1fr 1fr 5fr;
 }
 
 .character-sheet .skills-container {
@@ -34,8 +63,13 @@
 
 	padding: 5px 5px 15px;
 
-	border: 10px solid;
-	border-image-source: url(images/Saves.svg);
+	border: 10px solid white;
+	border-image-source: url(images/SavesBlock.svg);
 	border-image-slice: 65 10;
 	border-image-width: auto;
+}
+
+.character-sheet .skill {
+	display: grid;
+	grid-template-columns: 1fr 1fr 5fr;
 }

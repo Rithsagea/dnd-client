@@ -21,6 +21,8 @@
 	background-size: cover !important;
 	background-position: top center !important;
 
+	column-count: 1;
+
 	width: 76px;
 	height: 88px;
 	padding-bottom: 5px;
@@ -56,21 +58,20 @@
 }
 
 .character-sheet .attributes .attribute-container span {
+	display: block;
 	text-align: center;
-	line-height: 0;
+	line-height: normal;
 }
 
 .character-sheet .attributes .attribute-container span.label {
-	position: relative;
-	top: 11px;
+	margin-top: 8px;
 
 	font-size: 8px;
 	font-weight: bold;
 }
 
 .character-sheet .attributes .attribute-container span.modifier {
-	position: relative;
-	top: 23px;
+	margin-top: 3px;
 
 	font-size: 36px;
 	font-weight: bold;
@@ -78,7 +79,7 @@
 
 .character-sheet .attributes .attribute-container span.attribute {
 	position: relative;
-	top: 37px;
+	bottom: -4px;
 
 	font-size: 18px;
 }

@@ -5,8 +5,8 @@ import "./Attributes.css";
 const AttributeContainer = ({ className, label, score, mod }) => {
 	return (
 		<div className={`attribute-container ${className}`}>
-			<span className="label">{label}</span> <br />
-			<span className="modifier">{(mod > 0 ? "+" : "") + mod}</span> <br />
+			<span className="label">{label}</span>
+			<span className="modifier">{(mod > 0 ? "+" : "") + mod}</span>
 			<span className="attribute">{score}</span>
 		</div>
 	);
@@ -22,12 +22,12 @@ AttributeContainer.propTypes = {
 const Attributes = () => {
 	return (
 		<div className="attributes">
-			<AttributeContainer className="str" label="STRENGTH" score="8" mod="-1" />
-			<AttributeContainer className="dex" label="DEXTERITY" score="14" mod="2" />
-			<AttributeContainer className="con" label="CONSTITUTION" score="10" mod="0" />
-			<AttributeContainer className="int" label="INTELLIGENCE" score="15" mod="2" />
-			<AttributeContainer className="wis" label="WISDOM" score="14" mod="2" />
-			<AttributeContainer className="cha" label="CHARISMA" score="14" mod="2" />
+			<AttributeContainer className="str" label="STRENGTH" score={8} mod={-1} />
+			<AttributeContainer className="dex" label="DEXTERITY" score={14} mod={2} />
+			<AttributeContainer className="con" label="CONSTITUTION" score={10} mod={0} />
+			<AttributeContainer className="int" label="INTELLIGENCE" score={15} mod={2} />
+			<AttributeContainer className="wis" label="WISDOM" score={14} mod={2} />
+			<AttributeContainer className="cha" label="CHARISMA" score={14} mod={2} />
 		</div>
 	);
 };
