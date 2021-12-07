@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/dnd-client/static/css/main.ab6ad2ba.chunk.css",
-    "main.js": "/dnd-client/static/js/main.b87f71be.chunk.js",
-    "main.js.map": "/dnd-client/static/js/main.b87f71be.chunk.js.map",
+    "main.css": "/dnd-client/static/css/main.92528e67.chunk.css",
+    "main.js": "/dnd-client/static/js/main.ac5763f6.chunk.js",
+    "main.js.map": "/dnd-client/static/js/main.ac5763f6.chunk.js.map",
     "runtime-main.js": "/dnd-client/static/js/runtime-main.5bdf5427.js",
     "runtime-main.js.map": "/dnd-client/static/js/runtime-main.5bdf5427.js.map",
-    "static/js/2.4b928f1b.chunk.js": "/dnd-client/static/js/2.4b928f1b.chunk.js",
-    "static/js/2.4b928f1b.chunk.js.map": "/dnd-client/static/js/2.4b928f1b.chunk.js.map",
+    "static/js/2.d2ffae0d.chunk.js": "/dnd-client/static/js/2.d2ffae0d.chunk.js",
+    "static/js/2.d2ffae0d.chunk.js.map": "/dnd-client/static/js/2.d2ffae0d.chunk.js.map",
     "index.html": "/dnd-client/index.html",
-    "static/css/main.ab6ad2ba.chunk.css.map": "/dnd-client/static/css/main.ab6ad2ba.chunk.css.map",
-    "static/js/2.4b928f1b.chunk.js.LICENSE.txt": "/dnd-client/static/js/2.4b928f1b.chunk.js.LICENSE.txt",
+    "static/css/main.92528e67.chunk.css.map": "/dnd-client/static/css/main.92528e67.chunk.css.map",
+    "static/js/2.d2ffae0d.chunk.js.LICENSE.txt": "/dnd-client/static/js/2.d2ffae0d.chunk.js.LICENSE.txt",
     "static/media/Attributes.css": "/dnd-client/static/media/AbilityWIS.855aaaac.svg",
-    "static/media/Header.css": "/dnd-client/static/media/ScrollRight.b1a8eec8.svg"
+    "static/media/Header.css": "/dnd-client/static/media/ScrollRight.b1a8eec8.svg",
+    "static/media/SkillSaves.css": "/dnd-client/static/media/Saves.d2f1d858.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5bdf5427.js",
-    "static/js/2.4b928f1b.chunk.js",
-    "static/css/main.ab6ad2ba.chunk.css",
-    "static/js/main.b87f71be.chunk.js"
+    "static/js/2.d2ffae0d.chunk.js",
+    "static/css/main.92528e67.chunk.css",
+    "static/js/main.ac5763f6.chunk.js"
   ]
 }
