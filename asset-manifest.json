@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/dnd-client/static/css/main.5ca313e6.chunk.css",
-    "main.js": "/dnd-client/static/js/main.ac5763f6.chunk.js",
-    "main.js.map": "/dnd-client/static/js/main.ac5763f6.chunk.js.map",
+    "main.css": "/dnd-client/static/css/main.00956b0f.chunk.css",
+    "main.js": "/dnd-client/static/js/main.cb28d5cf.chunk.js",
+    "main.js.map": "/dnd-client/static/js/main.cb28d5cf.chunk.js.map",
     "runtime-main.js": "/dnd-client/static/js/runtime-main.5bdf5427.js",
     "runtime-main.js.map": "/dnd-client/static/js/runtime-main.5bdf5427.js.map",
     "static/js/2.d2ffae0d.chunk.js": "/dnd-client/static/js/2.d2ffae0d.chunk.js",
     "static/js/2.d2ffae0d.chunk.js.map": "/dnd-client/static/js/2.d2ffae0d.chunk.js.map",
     "index.html": "/dnd-client/index.html",
-    "static/css/main.5ca313e6.chunk.css.map": "/dnd-client/static/css/main.5ca313e6.chunk.css.map",
+    "static/css/main.00956b0f.chunk.css.map": "/dnd-client/static/css/main.00956b0f.chunk.css.map",
     "static/js/2.d2ffae0d.chunk.js.LICENSE.txt": "/dnd-client/static/js/2.d2ffae0d.chunk.js.LICENSE.txt",
     "static/media/Attributes.css": "/dnd-client/static/media/AbilityWIS.855aaaac.svg",
     "static/media/Header.css": "/dnd-client/static/media/ScrollRight.b1a8eec8.svg",
-    "static/media/SkillSaves.css": "/dnd-client/static/media/Saves.d2f1d858.svg"
+    "static/media/SkillSaves.css": "/dnd-client/static/media/SavesBlock.d2f1d858.svg",
+    "static/media/Body.css": "/dnd-client/static/media/Perception.c2f11922.svg",
+    "static/media/Proficiencies.css": "/dnd-client/static/media/ProficiencyBlock.f6cea496.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5bdf5427.js",
     "static/js/2.d2ffae0d.chunk.js",
-    "static/css/main.5ca313e6.chunk.css",
-    "static/js/main.ac5763f6.chunk.js"
+    "static/css/main.00956b0f.chunk.css",
+    "static/js/main.cb28d5cf.chunk.js"
   ]
 }
